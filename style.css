@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+body {
+    background-color: black;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="password"] {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-family: 'Protest Revolution', sans-serif;
+    cursor: pointer;
+}
+
+p {
+    font-size: 26px;
+    font-family: 'Protest Revolution', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-family: 'Protest Revolution', sans-serif;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+
+    p {
+      font-size: 60px;
+    }
+}
